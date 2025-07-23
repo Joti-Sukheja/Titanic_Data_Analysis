@@ -1,1 +1,892 @@
-
+PassengerId,Survived,Pclass,Sex,Age,SibSp,Parch,Fare,Embarked,FamilySize,AgeGroup,FareCategory
+1,0,3,0,22.0,1,0,7.25,S,2,Young Adult,Low
+2,1,1,1,38.0,1,0,71.2833,C,2,Middle-Aged,High
+3,1,3,1,26.0,0,0,7.925,S,1,Young Adult,Low
+4,1,1,1,35.0,1,0,53.1,S,2,Middle-Aged,High
+5,0,3,0,35.0,0,0,8.05,S,1,Middle-Aged,Low
+6,0,3,0,28.0,0,0,8.4583,Q,1,Young Adult,Low
+7,0,1,0,54.0,0,0,51.8625,S,1,Senior,High
+8,0,3,0,2.0,3,1,21.075,S,5,Child,Medium
+9,1,3,1,27.0,0,2,11.1333,S,3,Young Adult,Medium
+10,1,2,1,14.0,1,0,30.0708,C,2,Teenage,High
+11,1,3,1,4.0,1,1,16.7,S,3,Child,Medium
+12,1,1,1,58.0,0,0,26.55,S,1,Senior,Medium
+13,0,3,0,20.0,0,0,8.05,S,1,Young Adult,Low
+14,0,3,0,39.0,1,5,31.275,S,7,Middle-Aged,High
+15,0,3,1,14.0,0,0,7.8542,S,1,Teenage,Low
+16,1,2,1,55.0,0,0,16.0,S,1,Senior,Medium
+17,0,3,0,2.0,4,1,29.125,Q,6,Child,Medium
+18,1,2,0,28.0,0,0,13.0,S,1,Young Adult,Medium
+19,0,3,1,31.0,1,0,18.0,S,2,Young Adult,Medium
+20,1,3,1,28.0,0,0,7.225,C,1,Young Adult,Low
+21,0,2,0,35.0,0,0,26.0,S,1,Middle-Aged,Medium
+22,1,2,0,34.0,0,0,13.0,S,1,Middle-Aged,Medium
+23,1,3,1,15.0,0,0,8.0292,Q,1,Teenage,Low
+24,1,1,0,28.0,0,0,35.5,S,1,Young Adult,High
+25,0,3,1,8.0,3,1,21.075,S,5,Child,Medium
+26,1,3,1,38.0,1,5,31.3875,S,7,Middle-Aged,High
+27,0,3,0,28.0,0,0,7.225,C,1,Young Adult,Low
+28,0,1,0,19.0,3,2,263.0,S,6,Young Adult,VeryHigh
+29,1,3,1,28.0,0,0,7.8792,Q,1,Young Adult,Low
+30,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+31,0,1,0,40.0,0,0,27.7208,C,1,Middle-Aged,Medium
+32,1,1,1,28.0,1,0,146.5208,C,2,Young Adult,VeryHigh
+33,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+34,0,2,0,66.0,0,0,10.5,S,1,Senior,Medium
+35,0,1,0,28.0,1,0,82.1708,C,2,Young Adult,High
+36,0,1,0,42.0,1,0,52.0,S,2,Middle-Aged,High
+37,1,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+38,0,3,0,21.0,0,0,8.05,S,1,Young Adult,Low
+39,0,3,1,18.0,2,0,18.0,S,3,Teenage,Medium
+40,1,3,1,14.0,1,0,11.2417,C,2,Teenage,Medium
+41,0,3,1,40.0,1,0,9.475,S,2,Middle-Aged,Low
+42,0,2,1,27.0,1,0,21.0,S,2,Young Adult,Medium
+43,0,3,0,28.0,0,0,7.8958,C,1,Young Adult,Low
+44,1,2,1,3.0,1,2,41.5792,C,4,Child,High
+45,1,3,1,19.0,0,0,7.8792,Q,1,Young Adult,Low
+46,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+47,0,3,0,28.0,1,0,15.5,Q,2,Young Adult,Medium
+48,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+49,0,3,0,28.0,2,0,21.6792,C,3,Young Adult,Medium
+50,0,3,1,18.0,1,0,17.8,S,2,Teenage,Medium
+51,0,3,0,7.0,4,1,39.6875,S,6,Child,High
+52,0,3,0,21.0,0,0,7.8,S,1,Young Adult,Low
+53,1,1,1,49.0,1,0,76.7292,C,2,Middle-Aged,High
+54,1,2,1,29.0,1,0,26.0,S,2,Young Adult,Medium
+55,0,1,0,65.0,0,1,61.9792,C,2,Senior,High
+56,1,1,0,28.0,0,0,35.5,S,1,Young Adult,High
+57,1,2,1,21.0,0,0,10.5,S,1,Young Adult,Medium
+58,0,3,0,28.5,0,0,7.2292,C,1,Young Adult,Low
+59,1,2,1,5.0,1,2,27.75,S,4,Child,Medium
+60,0,3,0,11.0,5,2,46.9,S,8,Child,High
+61,0,3,0,22.0,0,0,7.2292,C,1,Young Adult,Low
+62,1,1,1,38.0,0,0,80.0,S,1,Middle-Aged,High
+63,0,1,0,45.0,1,0,83.475,S,2,Middle-Aged,High
+64,0,3,0,4.0,3,2,27.9,S,6,Child,Medium
+65,0,1,0,28.0,0,0,27.7208,C,1,Young Adult,Medium
+66,1,3,0,28.0,1,1,15.2458,C,3,Young Adult,Medium
+67,1,2,1,29.0,0,0,10.5,S,1,Young Adult,Medium
+68,0,3,0,19.0,0,0,8.1583,S,1,Young Adult,Low
+69,1,3,1,17.0,4,2,7.925,S,7,Teenage,Low
+70,0,3,0,26.0,2,0,8.6625,S,3,Young Adult,Low
+71,0,2,0,32.0,0,0,10.5,S,1,Young Adult,Medium
+72,0,3,1,16.0,5,2,46.9,S,8,Teenage,High
+73,0,2,0,21.0,0,0,73.5,S,1,Young Adult,High
+74,0,3,0,26.0,1,0,14.4542,C,2,Young Adult,Medium
+75,1,3,0,32.0,0,0,56.4958,S,1,Young Adult,High
+76,0,3,0,25.0,0,0,7.65,S,1,Young Adult,Low
+77,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+78,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+79,1,2,0,0.83,0,2,29.0,S,3,Child,Medium
+80,1,3,1,30.0,0,0,12.475,S,1,Young Adult,Medium
+81,0,3,0,22.0,0,0,9.0,S,1,Young Adult,Low
+82,1,3,0,29.0,0,0,9.5,S,1,Young Adult,Low
+83,1,3,1,28.0,0,0,7.7875,Q,1,Young Adult,Low
+84,0,1,0,28.0,0,0,47.1,S,1,Young Adult,High
+85,1,2,1,17.0,0,0,10.5,S,1,Teenage,Medium
+86,1,3,1,33.0,3,0,15.85,S,4,Middle-Aged,Medium
+87,0,3,0,16.0,1,3,34.375,S,5,Teenage,High
+88,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+89,1,1,1,23.0,3,2,263.0,S,6,Young Adult,VeryHigh
+90,0,3,0,24.0,0,0,8.05,S,1,Young Adult,Low
+91,0,3,0,29.0,0,0,8.05,S,1,Young Adult,Low
+92,0,3,0,20.0,0,0,7.8542,S,1,Young Adult,Low
+93,0,1,0,46.0,1,0,61.175,S,2,Middle-Aged,High
+94,0,3,0,26.0,1,2,20.575,S,4,Young Adult,Medium
+95,0,3,0,59.0,0,0,7.25,S,1,Senior,Low
+96,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+97,0,1,0,71.0,0,0,34.6542,C,1,Senior,High
+98,1,1,0,23.0,0,1,63.3583,C,2,Young Adult,High
+99,1,2,1,34.0,0,1,23.0,S,2,Middle-Aged,Medium
+100,0,2,0,34.0,1,0,26.0,S,2,Middle-Aged,Medium
+101,0,3,1,28.0,0,0,7.8958,S,1,Young Adult,Low
+102,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+103,0,1,0,21.0,0,1,77.2875,S,2,Young Adult,High
+104,0,3,0,33.0,0,0,8.6542,S,1,Middle-Aged,Low
+105,0,3,0,37.0,2,0,7.925,S,3,Middle-Aged,Low
+106,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+107,1,3,1,21.0,0,0,7.65,S,1,Young Adult,Low
+108,1,3,0,28.0,0,0,7.775,S,1,Young Adult,Low
+109,0,3,0,38.0,0,0,7.8958,S,1,Middle-Aged,Low
+110,1,3,1,28.0,1,0,24.15,Q,2,Young Adult,Medium
+111,0,1,0,47.0,0,0,52.0,S,1,Middle-Aged,High
+112,0,3,1,14.5,1,0,14.4542,C,2,Teenage,Medium
+113,0,3,0,22.0,0,0,8.05,S,1,Young Adult,Low
+114,0,3,1,20.0,1,0,9.825,S,2,Young Adult,Low
+115,0,3,1,17.0,0,0,14.4583,C,1,Teenage,Medium
+116,0,3,0,21.0,0,0,7.925,S,1,Young Adult,Low
+117,0,3,0,70.5,0,0,7.75,Q,1,Senior,Low
+118,0,2,0,29.0,1,0,21.0,S,2,Young Adult,Medium
+119,0,1,0,24.0,0,1,247.5208,C,2,Young Adult,VeryHigh
+120,0,3,1,2.0,4,2,31.275,S,7,Child,High
+121,0,2,0,21.0,2,0,73.5,S,3,Young Adult,High
+122,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+123,0,2,0,32.5,1,0,30.0708,C,2,Middle-Aged,High
+124,1,2,1,32.5,0,0,13.0,S,1,Middle-Aged,Medium
+125,0,1,0,54.0,0,1,77.2875,S,2,Senior,High
+126,1,3,0,12.0,1,0,11.2417,C,2,Child,Medium
+127,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+128,1,3,0,24.0,0,0,7.1417,S,1,Young Adult,Low
+129,1,3,1,28.0,1,1,22.3583,C,3,Young Adult,Medium
+130,0,3,0,45.0,0,0,6.975,S,1,Middle-Aged,Low
+131,0,3,0,33.0,0,0,7.8958,C,1,Middle-Aged,Low
+132,0,3,0,20.0,0,0,7.05,S,1,Young Adult,Low
+133,0,3,1,47.0,1,0,14.5,S,2,Middle-Aged,Medium
+134,1,2,1,29.0,1,0,26.0,S,2,Young Adult,Medium
+135,0,2,0,25.0,0,0,13.0,S,1,Young Adult,Medium
+136,0,2,0,23.0,0,0,15.0458,C,1,Young Adult,Medium
+137,1,1,1,19.0,0,2,26.2833,S,3,Young Adult,Medium
+138,0,1,0,37.0,1,0,53.1,S,2,Middle-Aged,High
+139,0,3,0,16.0,0,0,9.2167,S,1,Teenage,Low
+140,0,1,0,24.0,0,0,79.2,C,1,Young Adult,High
+141,0,3,1,28.0,0,2,15.2458,C,3,Young Adult,Medium
+142,1,3,1,22.0,0,0,7.75,S,1,Young Adult,Low
+143,1,3,1,24.0,1,0,15.85,S,2,Young Adult,Medium
+144,0,3,0,19.0,0,0,6.75,Q,1,Young Adult,Low
+145,0,2,0,18.0,0,0,11.5,S,1,Teenage,Medium
+146,0,2,0,19.0,1,1,36.75,S,3,Young Adult,High
+147,1,3,0,27.0,0,0,7.7958,S,1,Young Adult,Low
+148,0,3,1,9.0,2,2,34.375,S,5,Child,High
+149,0,2,0,36.5,0,2,26.0,S,3,Middle-Aged,Medium
+150,0,2,0,42.0,0,0,13.0,S,1,Middle-Aged,Medium
+151,0,2,0,51.0,0,0,12.525,S,1,Senior,Medium
+152,1,1,1,22.0,1,0,66.6,S,2,Young Adult,High
+153,0,3,0,55.5,0,0,8.05,S,1,Senior,Low
+154,0,3,0,40.5,0,2,14.5,S,3,Middle-Aged,Medium
+155,0,3,0,28.0,0,0,7.3125,S,1,Young Adult,Low
+156,0,1,0,51.0,0,1,61.3792,C,2,Senior,High
+157,1,3,1,16.0,0,0,7.7333,Q,1,Teenage,Low
+158,0,3,0,30.0,0,0,8.05,S,1,Young Adult,Low
+159,0,3,0,28.0,0,0,8.6625,S,1,Young Adult,Low
+160,0,3,0,28.0,8,2,69.55,S,11,Young Adult,High
+161,0,3,0,44.0,0,1,16.1,S,2,Middle-Aged,Medium
+162,1,2,1,40.0,0,0,15.75,S,1,Middle-Aged,Medium
+163,0,3,0,26.0,0,0,7.775,S,1,Young Adult,Low
+164,0,3,0,17.0,0,0,8.6625,S,1,Teenage,Low
+165,0,3,0,1.0,4,1,39.6875,S,6,Child,High
+166,1,3,0,9.0,0,2,20.525,S,3,Child,Medium
+167,1,1,1,28.0,0,1,55.0,S,2,Young Adult,High
+168,0,3,1,45.0,1,4,27.9,S,6,Middle-Aged,Medium
+169,0,1,0,28.0,0,0,25.925,S,1,Young Adult,Medium
+170,0,3,0,28.0,0,0,56.4958,S,1,Young Adult,High
+171,0,1,0,61.0,0,0,33.5,S,1,Senior,High
+172,0,3,0,4.0,4,1,29.125,Q,6,Child,Medium
+173,1,3,1,1.0,1,1,11.1333,S,3,Child,Medium
+174,0,3,0,21.0,0,0,7.925,S,1,Young Adult,Low
+175,0,1,0,56.0,0,0,30.6958,C,1,Senior,High
+176,0,3,0,18.0,1,1,7.8542,S,3,Teenage,Low
+177,0,3,0,28.0,3,1,25.4667,S,5,Young Adult,Medium
+178,0,1,1,50.0,0,0,28.7125,C,1,Middle-Aged,Medium
+179,0,2,0,30.0,0,0,13.0,S,1,Young Adult,Medium
+180,0,3,0,36.0,0,0,0.0,S,1,Middle-Aged,
+181,0,3,1,28.0,8,2,69.55,S,11,Young Adult,High
+182,0,2,0,28.0,0,0,15.05,C,1,Young Adult,Medium
+183,0,3,0,9.0,4,2,31.3875,S,7,Child,High
+184,1,2,0,1.0,2,1,39.0,S,4,Child,High
+185,1,3,1,4.0,0,2,22.025,S,3,Child,Medium
+186,0,1,0,28.0,0,0,50.0,S,1,Young Adult,High
+187,1,3,1,28.0,1,0,15.5,Q,2,Young Adult,Medium
+188,1,1,0,45.0,0,0,26.55,S,1,Middle-Aged,Medium
+189,0,3,0,40.0,1,1,15.5,Q,3,Middle-Aged,Medium
+190,0,3,0,36.0,0,0,7.8958,S,1,Middle-Aged,Low
+191,1,2,1,32.0,0,0,13.0,S,1,Young Adult,Medium
+192,0,2,0,19.0,0,0,13.0,S,1,Young Adult,Medium
+193,1,3,1,19.0,1,0,7.8542,S,2,Young Adult,Low
+194,1,2,0,3.0,1,1,26.0,S,3,Child,Medium
+195,1,1,1,44.0,0,0,27.7208,C,1,Middle-Aged,Medium
+196,1,1,1,58.0,0,0,146.5208,C,1,Senior,VeryHigh
+197,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+198,0,3,0,42.0,0,1,8.4042,S,2,Middle-Aged,Low
+199,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+200,0,2,1,24.0,0,0,13.0,S,1,Young Adult,Medium
+201,0,3,0,28.0,0,0,9.5,S,1,Young Adult,Low
+202,0,3,0,28.0,8,2,69.55,S,11,Young Adult,High
+203,0,3,0,34.0,0,0,6.4958,S,1,Middle-Aged,Low
+204,0,3,0,45.5,0,0,7.225,C,1,Middle-Aged,Low
+205,1,3,0,18.0,0,0,8.05,S,1,Teenage,Low
+206,0,3,1,2.0,0,1,10.4625,S,2,Child,Medium
+207,0,3,0,32.0,1,0,15.85,S,2,Young Adult,Medium
+208,1,3,0,26.0,0,0,18.7875,C,1,Young Adult,Medium
+209,1,3,1,16.0,0,0,7.75,Q,1,Teenage,Low
+210,1,1,0,40.0,0,0,31.0,C,1,Middle-Aged,High
+211,0,3,0,24.0,0,0,7.05,S,1,Young Adult,Low
+212,1,2,1,35.0,0,0,21.0,S,1,Middle-Aged,Medium
+213,0,3,0,22.0,0,0,7.25,S,1,Young Adult,Low
+214,0,2,0,30.0,0,0,13.0,S,1,Young Adult,Medium
+215,0,3,0,28.0,1,0,7.75,Q,2,Young Adult,Low
+216,1,1,1,31.0,1,0,113.275,C,2,Young Adult,VeryHigh
+217,1,3,1,27.0,0,0,7.925,S,1,Young Adult,Low
+218,0,2,0,42.0,1,0,27.0,S,2,Middle-Aged,Medium
+219,1,1,1,32.0,0,0,76.2917,C,1,Young Adult,High
+220,0,2,0,30.0,0,0,10.5,S,1,Young Adult,Medium
+221,1,3,0,16.0,0,0,8.05,S,1,Teenage,Low
+222,0,2,0,27.0,0,0,13.0,S,1,Young Adult,Medium
+223,0,3,0,51.0,0,0,8.05,S,1,Senior,Low
+224,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+225,1,1,0,38.0,1,0,90.0,S,2,Middle-Aged,High
+226,0,3,0,22.0,0,0,9.35,S,1,Young Adult,Low
+227,1,2,0,19.0,0,0,10.5,S,1,Young Adult,Medium
+228,0,3,0,20.5,0,0,7.25,S,1,Young Adult,Low
+229,0,2,0,18.0,0,0,13.0,S,1,Teenage,Medium
+230,0,3,1,28.0,3,1,25.4667,S,5,Young Adult,Medium
+231,1,1,1,35.0,1,0,83.475,S,2,Middle-Aged,High
+232,0,3,0,29.0,0,0,7.775,S,1,Young Adult,Low
+233,0,2,0,59.0,0,0,13.5,S,1,Senior,Medium
+234,1,3,1,5.0,4,2,31.3875,S,7,Child,High
+235,0,2,0,24.0,0,0,10.5,S,1,Young Adult,Medium
+236,0,3,1,28.0,0,0,7.55,S,1,Young Adult,Low
+237,0,2,0,44.0,1,0,26.0,S,2,Middle-Aged,Medium
+238,1,2,1,8.0,0,2,26.25,S,3,Child,Medium
+239,0,2,0,19.0,0,0,10.5,S,1,Young Adult,Medium
+240,0,2,0,33.0,0,0,12.275,S,1,Middle-Aged,Medium
+241,0,3,1,28.0,1,0,14.4542,C,2,Young Adult,Medium
+242,1,3,1,28.0,1,0,15.5,Q,2,Young Adult,Medium
+243,0,2,0,29.0,0,0,10.5,S,1,Young Adult,Medium
+244,0,3,0,22.0,0,0,7.125,S,1,Young Adult,Low
+245,0,3,0,30.0,0,0,7.225,C,1,Young Adult,Low
+246,0,1,0,44.0,2,0,90.0,Q,3,Middle-Aged,High
+247,0,3,1,25.0,0,0,7.775,S,1,Young Adult,Low
+248,1,2,1,24.0,0,2,14.5,S,3,Young Adult,Medium
+249,1,1,0,37.0,1,1,52.5542,S,3,Middle-Aged,High
+250,0,2,0,54.0,1,0,26.0,S,2,Senior,Medium
+251,0,3,0,28.0,0,0,7.25,S,1,Young Adult,Low
+252,0,3,1,29.0,1,1,10.4625,S,3,Young Adult,Medium
+253,0,1,0,62.0,0,0,26.55,S,1,Senior,Medium
+254,0,3,0,30.0,1,0,16.1,S,2,Young Adult,Medium
+255,0,3,1,41.0,0,2,20.2125,S,3,Middle-Aged,Medium
+256,1,3,1,29.0,0,2,15.2458,C,3,Young Adult,Medium
+257,1,1,1,28.0,0,0,79.2,C,1,Young Adult,High
+258,1,1,1,30.0,0,0,86.5,S,1,Young Adult,High
+259,1,1,1,35.0,0,0,512.3292,C,1,Middle-Aged,VeryHigh
+260,1,2,1,50.0,0,1,26.0,S,2,Middle-Aged,Medium
+261,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+262,1,3,0,3.0,4,2,31.3875,S,7,Child,High
+263,0,1,0,52.0,1,1,79.65,S,3,Senior,High
+264,0,1,0,40.0,0,0,0.0,S,1,Middle-Aged,
+265,0,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+266,0,2,0,36.0,0,0,10.5,S,1,Middle-Aged,Medium
+267,0,3,0,16.0,4,1,39.6875,S,6,Teenage,High
+268,1,3,0,25.0,1,0,7.775,S,2,Young Adult,Low
+269,1,1,1,58.0,0,1,153.4625,S,2,Senior,VeryHigh
+270,1,1,1,35.0,0,0,135.6333,S,1,Middle-Aged,VeryHigh
+271,0,1,0,28.0,0,0,31.0,S,1,Young Adult,High
+272,1,3,0,25.0,0,0,0.0,S,1,Young Adult,
+273,1,2,1,41.0,0,1,19.5,S,2,Middle-Aged,Medium
+274,0,1,0,37.0,0,1,29.7,C,2,Middle-Aged,Medium
+275,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+276,1,1,1,63.0,1,0,77.9583,S,2,Senior,High
+277,0,3,1,45.0,0,0,7.75,S,1,Middle-Aged,Low
+278,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+279,0,3,0,7.0,4,1,29.125,Q,6,Child,Medium
+280,1,3,1,35.0,1,1,20.25,S,3,Middle-Aged,Medium
+281,0,3,0,65.0,0,0,7.75,Q,1,Senior,Low
+282,0,3,0,28.0,0,0,7.8542,S,1,Young Adult,Low
+283,0,3,0,16.0,0,0,9.5,S,1,Teenage,Low
+284,1,3,0,19.0,0,0,8.05,S,1,Young Adult,Low
+285,0,1,0,28.0,0,0,26.0,S,1,Young Adult,Medium
+286,0,3,0,33.0,0,0,8.6625,C,1,Middle-Aged,Low
+287,1,3,0,30.0,0,0,9.5,S,1,Young Adult,Low
+288,0,3,0,22.0,0,0,7.8958,S,1,Young Adult,Low
+289,1,2,0,42.0,0,0,13.0,S,1,Middle-Aged,Medium
+290,1,3,1,22.0,0,0,7.75,Q,1,Young Adult,Low
+291,1,1,1,26.0,0,0,78.85,S,1,Young Adult,High
+292,1,1,1,19.0,1,0,91.0792,C,2,Young Adult,High
+293,0,2,0,36.0,0,0,12.875,C,1,Middle-Aged,Medium
+294,0,3,1,24.0,0,0,8.85,S,1,Young Adult,Low
+295,0,3,0,24.0,0,0,7.8958,S,1,Young Adult,Low
+296,0,1,0,28.0,0,0,27.7208,C,1,Young Adult,Medium
+297,0,3,0,23.5,0,0,7.2292,C,1,Young Adult,Low
+298,0,1,1,2.0,1,2,151.55,S,4,Child,VeryHigh
+299,1,1,0,28.0,0,0,30.5,S,1,Young Adult,High
+300,1,1,1,50.0,0,1,247.5208,C,2,Middle-Aged,VeryHigh
+301,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+302,1,3,0,28.0,2,0,23.25,Q,3,Young Adult,Medium
+303,0,3,0,19.0,0,0,0.0,S,1,Young Adult,
+304,1,2,1,28.0,0,0,12.35,Q,1,Young Adult,Medium
+305,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+306,1,1,0,0.92,1,2,151.55,S,4,Child,VeryHigh
+307,1,1,1,28.0,0,0,110.8833,C,1,Young Adult,VeryHigh
+308,1,1,1,17.0,1,0,108.9,C,2,Teenage,VeryHigh
+309,0,2,0,30.0,1,0,24.0,C,2,Young Adult,Medium
+310,1,1,1,30.0,0,0,56.9292,C,1,Young Adult,High
+311,1,1,1,24.0,0,0,83.1583,C,1,Young Adult,High
+312,1,1,1,18.0,2,2,262.375,C,5,Teenage,VeryHigh
+313,0,2,1,26.0,1,1,26.0,S,3,Young Adult,Medium
+314,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+315,0,2,0,43.0,1,1,26.25,S,3,Middle-Aged,Medium
+316,1,3,1,26.0,0,0,7.8542,S,1,Young Adult,Low
+317,1,2,1,24.0,1,0,26.0,S,2,Young Adult,Medium
+318,0,2,0,54.0,0,0,14.0,S,1,Senior,Medium
+319,1,1,1,31.0,0,2,164.8667,S,3,Young Adult,VeryHigh
+320,1,1,1,40.0,1,1,134.5,C,3,Middle-Aged,VeryHigh
+321,0,3,0,22.0,0,0,7.25,S,1,Young Adult,Low
+322,0,3,0,27.0,0,0,7.8958,S,1,Young Adult,Low
+323,1,2,1,30.0,0,0,12.35,Q,1,Young Adult,Medium
+324,1,2,1,22.0,1,1,29.0,S,3,Young Adult,Medium
+325,0,3,0,28.0,8,2,69.55,S,11,Young Adult,High
+326,1,1,1,36.0,0,0,135.6333,C,1,Middle-Aged,VeryHigh
+327,0,3,0,61.0,0,0,6.2375,S,1,Senior,Low
+328,1,2,1,36.0,0,0,13.0,S,1,Middle-Aged,Medium
+329,1,3,1,31.0,1,1,20.525,S,3,Young Adult,Medium
+330,1,1,1,16.0,0,1,57.9792,C,2,Teenage,High
+331,1,3,1,28.0,2,0,23.25,Q,3,Young Adult,Medium
+332,0,1,0,45.5,0,0,28.5,S,1,Middle-Aged,Medium
+333,0,1,0,38.0,0,1,153.4625,S,2,Middle-Aged,VeryHigh
+334,0,3,0,16.0,2,0,18.0,S,3,Teenage,Medium
+335,1,1,1,28.0,1,0,133.65,S,2,Young Adult,VeryHigh
+336,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+337,0,1,0,29.0,1,0,66.6,S,2,Young Adult,High
+338,1,1,1,41.0,0,0,134.5,C,1,Middle-Aged,VeryHigh
+339,1,3,0,45.0,0,0,8.05,S,1,Middle-Aged,Low
+340,0,1,0,45.0,0,0,35.5,S,1,Middle-Aged,High
+341,1,2,0,2.0,1,1,26.0,S,3,Child,Medium
+342,1,1,1,24.0,3,2,263.0,S,6,Young Adult,VeryHigh
+343,0,2,0,28.0,0,0,13.0,S,1,Young Adult,Medium
+344,0,2,0,25.0,0,0,13.0,S,1,Young Adult,Medium
+345,0,2,0,36.0,0,0,13.0,S,1,Middle-Aged,Medium
+346,1,2,1,24.0,0,0,13.0,S,1,Young Adult,Medium
+347,1,2,1,40.0,0,0,13.0,S,1,Middle-Aged,Medium
+348,1,3,1,28.0,1,0,16.1,S,2,Young Adult,Medium
+349,1,3,0,3.0,1,1,15.9,S,3,Child,Medium
+350,0,3,0,42.0,0,0,8.6625,S,1,Middle-Aged,Low
+351,0,3,0,23.0,0,0,9.225,S,1,Young Adult,Low
+352,0,1,0,28.0,0,0,35.0,S,1,Young Adult,High
+353,0,3,0,15.0,1,1,7.2292,C,3,Teenage,Low
+354,0,3,0,25.0,1,0,17.8,S,2,Young Adult,Medium
+355,0,3,0,28.0,0,0,7.225,C,1,Young Adult,Low
+356,0,3,0,28.0,0,0,9.5,S,1,Young Adult,Low
+357,1,1,1,22.0,0,1,55.0,S,2,Young Adult,High
+358,0,2,1,38.0,0,0,13.0,S,1,Middle-Aged,Medium
+359,1,3,1,28.0,0,0,7.8792,Q,1,Young Adult,Low
+360,1,3,1,28.0,0,0,7.8792,Q,1,Young Adult,Low
+361,0,3,0,40.0,1,4,27.9,S,6,Middle-Aged,Medium
+362,0,2,0,29.0,1,0,27.7208,C,2,Young Adult,Medium
+363,0,3,1,45.0,0,1,14.4542,C,2,Middle-Aged,Medium
+364,0,3,0,35.0,0,0,7.05,S,1,Middle-Aged,Low
+365,0,3,0,28.0,1,0,15.5,Q,2,Young Adult,Medium
+366,0,3,0,30.0,0,0,7.25,S,1,Young Adult,Low
+367,1,1,1,60.0,1,0,75.25,C,2,Senior,High
+368,1,3,1,28.0,0,0,7.2292,C,1,Young Adult,Low
+369,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+370,1,1,1,24.0,0,0,69.3,C,1,Young Adult,High
+371,1,1,0,25.0,1,0,55.4417,C,2,Young Adult,High
+372,0,3,0,18.0,1,0,6.4958,S,2,Teenage,Low
+373,0,3,0,19.0,0,0,8.05,S,1,Young Adult,Low
+374,0,1,0,22.0,0,0,135.6333,C,1,Young Adult,VeryHigh
+375,0,3,1,3.0,3,1,21.075,S,5,Child,Medium
+376,1,1,1,28.0,1,0,82.1708,C,2,Young Adult,High
+377,1,3,1,22.0,0,0,7.25,S,1,Young Adult,Low
+378,0,1,0,27.0,0,2,211.5,C,3,Young Adult,VeryHigh
+379,0,3,0,20.0,0,0,4.0125,C,1,Young Adult,Low
+380,0,3,0,19.0,0,0,7.775,S,1,Young Adult,Low
+381,1,1,1,42.0,0,0,227.525,C,1,Middle-Aged,VeryHigh
+382,1,3,1,1.0,0,2,15.7417,C,3,Child,Medium
+383,0,3,0,32.0,0,0,7.925,S,1,Young Adult,Low
+384,1,1,1,35.0,1,0,52.0,S,2,Middle-Aged,High
+385,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+386,0,2,0,18.0,0,0,73.5,S,1,Teenage,High
+387,0,3,0,1.0,5,2,46.9,S,8,Child,High
+388,1,2,1,36.0,0,0,13.0,S,1,Middle-Aged,Medium
+389,0,3,0,28.0,0,0,7.7292,Q,1,Young Adult,Low
+390,1,2,1,17.0,0,0,12.0,C,1,Teenage,Medium
+391,1,1,0,36.0,1,2,120.0,S,4,Middle-Aged,VeryHigh
+392,1,3,0,21.0,0,0,7.7958,S,1,Young Adult,Low
+393,0,3,0,28.0,2,0,7.925,S,3,Young Adult,Low
+394,1,1,1,23.0,1,0,113.275,C,2,Young Adult,VeryHigh
+395,1,3,1,24.0,0,2,16.7,S,3,Young Adult,Medium
+396,0,3,0,22.0,0,0,7.7958,S,1,Young Adult,Low
+397,0,3,1,31.0,0,0,7.8542,S,1,Young Adult,Low
+398,0,2,0,46.0,0,0,26.0,S,1,Middle-Aged,Medium
+399,0,2,0,23.0,0,0,10.5,S,1,Young Adult,Medium
+400,1,2,1,28.0,0,0,12.65,S,1,Young Adult,Medium
+401,1,3,0,39.0,0,0,7.925,S,1,Middle-Aged,Low
+402,0,3,0,26.0,0,0,8.05,S,1,Young Adult,Low
+403,0,3,1,21.0,1,0,9.825,S,2,Young Adult,Low
+404,0,3,0,28.0,1,0,15.85,S,2,Young Adult,Medium
+405,0,3,1,20.0,0,0,8.6625,S,1,Young Adult,Low
+406,0,2,0,34.0,1,0,21.0,S,2,Middle-Aged,Medium
+407,0,3,0,51.0,0,0,7.75,S,1,Senior,Low
+408,1,2,0,3.0,1,1,18.75,S,3,Child,Medium
+409,0,3,0,21.0,0,0,7.775,S,1,Young Adult,Low
+410,0,3,1,28.0,3,1,25.4667,S,5,Young Adult,Medium
+411,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+412,0,3,0,28.0,0,0,6.8583,Q,1,Young Adult,Low
+413,1,1,1,33.0,1,0,90.0,Q,2,Middle-Aged,High
+414,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+415,1,3,0,44.0,0,0,7.925,S,1,Middle-Aged,Low
+416,0,3,1,28.0,0,0,8.05,S,1,Young Adult,Low
+417,1,2,1,34.0,1,1,32.5,S,3,Middle-Aged,High
+418,1,2,1,18.0,0,2,13.0,S,3,Teenage,Medium
+419,0,2,0,30.0,0,0,13.0,S,1,Young Adult,Medium
+420,0,3,1,10.0,0,2,24.15,S,3,Child,Medium
+421,0,3,0,28.0,0,0,7.8958,C,1,Young Adult,Low
+422,0,3,0,21.0,0,0,7.7333,Q,1,Young Adult,Low
+423,0,3,0,29.0,0,0,7.875,S,1,Young Adult,Low
+424,0,3,1,28.0,1,1,14.4,S,3,Young Adult,Medium
+425,0,3,0,18.0,1,1,20.2125,S,3,Teenage,Medium
+426,0,3,0,28.0,0,0,7.25,S,1,Young Adult,Low
+427,1,2,1,28.0,1,0,26.0,S,2,Young Adult,Medium
+428,1,2,1,19.0,0,0,26.0,S,1,Young Adult,Medium
+429,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+430,1,3,0,32.0,0,0,8.05,S,1,Young Adult,Low
+431,1,1,0,28.0,0,0,26.55,S,1,Young Adult,Medium
+432,1,3,1,28.0,1,0,16.1,S,2,Young Adult,Medium
+433,1,2,1,42.0,1,0,26.0,S,2,Middle-Aged,Medium
+434,0,3,0,17.0,0,0,7.125,S,1,Teenage,Low
+435,0,1,0,50.0,1,0,55.9,S,2,Middle-Aged,High
+436,1,1,1,14.0,1,2,120.0,S,4,Teenage,VeryHigh
+437,0,3,1,21.0,2,2,34.375,S,5,Young Adult,High
+438,1,2,1,24.0,2,3,18.75,S,6,Young Adult,Medium
+439,0,1,0,64.0,1,4,263.0,S,6,Senior,VeryHigh
+440,0,2,0,31.0,0,0,10.5,S,1,Young Adult,Medium
+441,1,2,1,45.0,1,1,26.25,S,3,Middle-Aged,Medium
+442,0,3,0,20.0,0,0,9.5,S,1,Young Adult,Low
+443,0,3,0,25.0,1,0,7.775,S,2,Young Adult,Low
+444,1,2,1,28.0,0,0,13.0,S,1,Young Adult,Medium
+445,1,3,0,28.0,0,0,8.1125,S,1,Young Adult,Low
+446,1,1,0,4.0,0,2,81.8583,S,3,Child,High
+447,1,2,1,13.0,0,1,19.5,S,2,Teenage,Medium
+448,1,1,0,34.0,0,0,26.55,S,1,Middle-Aged,Medium
+449,1,3,1,5.0,2,1,19.2583,C,4,Child,Medium
+450,1,1,0,52.0,0,0,30.5,S,1,Senior,High
+451,0,2,0,36.0,1,2,27.75,S,4,Middle-Aged,Medium
+452,0,3,0,28.0,1,0,19.9667,S,2,Young Adult,Medium
+453,0,1,0,30.0,0,0,27.75,C,1,Young Adult,Medium
+454,1,1,0,49.0,1,0,89.1042,C,2,Middle-Aged,High
+455,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+456,1,3,0,29.0,0,0,7.8958,C,1,Young Adult,Low
+457,0,1,0,65.0,0,0,26.55,S,1,Senior,Medium
+458,1,1,1,28.0,1,0,51.8625,S,2,Young Adult,High
+459,1,2,1,50.0,0,0,10.5,S,1,Middle-Aged,Medium
+460,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+461,1,1,0,48.0,0,0,26.55,S,1,Middle-Aged,Medium
+462,0,3,0,34.0,0,0,8.05,S,1,Middle-Aged,Low
+463,0,1,0,47.0,0,0,38.5,S,1,Middle-Aged,High
+464,0,2,0,48.0,0,0,13.0,S,1,Middle-Aged,Medium
+465,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+466,0,3,0,38.0,0,0,7.05,S,1,Middle-Aged,Low
+467,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+468,0,1,0,56.0,0,0,26.55,S,1,Senior,Medium
+469,0,3,0,28.0,0,0,7.725,Q,1,Young Adult,Low
+470,1,3,1,0.75,2,1,19.2583,C,4,Child,Medium
+471,0,3,0,28.0,0,0,7.25,S,1,Young Adult,Low
+472,0,3,0,38.0,0,0,8.6625,S,1,Middle-Aged,Low
+473,1,2,1,33.0,1,2,27.75,S,4,Middle-Aged,Medium
+474,1,2,1,23.0,0,0,13.7917,C,1,Young Adult,Medium
+475,0,3,1,22.0,0,0,9.8375,S,1,Young Adult,Low
+476,0,1,0,28.0,0,0,52.0,S,1,Young Adult,High
+477,0,2,0,34.0,1,0,21.0,S,2,Middle-Aged,Medium
+478,0,3,0,29.0,1,0,7.0458,S,2,Young Adult,Low
+479,0,3,0,22.0,0,0,7.5208,S,1,Young Adult,Low
+480,1,3,1,2.0,0,1,12.2875,S,2,Child,Medium
+481,0,3,0,9.0,5,2,46.9,S,8,Child,High
+482,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+483,0,3,0,50.0,0,0,8.05,S,1,Middle-Aged,Low
+484,1,3,1,63.0,0,0,9.5875,S,1,Senior,Low
+485,1,1,0,25.0,1,0,91.0792,C,2,Young Adult,High
+486,0,3,1,28.0,3,1,25.4667,S,5,Young Adult,Medium
+487,1,1,1,35.0,1,0,90.0,S,2,Middle-Aged,High
+488,0,1,0,58.0,0,0,29.7,C,1,Senior,Medium
+489,0,3,0,30.0,0,0,8.05,S,1,Young Adult,Low
+490,1,3,0,9.0,1,1,15.9,S,3,Child,Medium
+491,0,3,0,28.0,1,0,19.9667,S,2,Young Adult,Medium
+492,0,3,0,21.0,0,0,7.25,S,1,Young Adult,Low
+493,0,1,0,55.0,0,0,30.5,S,1,Senior,High
+494,0,1,0,71.0,0,0,49.5042,C,1,Senior,High
+495,0,3,0,21.0,0,0,8.05,S,1,Young Adult,Low
+496,0,3,0,28.0,0,0,14.4583,C,1,Young Adult,Medium
+497,1,1,1,54.0,1,0,78.2667,C,2,Senior,High
+498,0,3,0,28.0,0,0,15.1,S,1,Young Adult,Medium
+499,0,1,1,25.0,1,2,151.55,S,4,Young Adult,VeryHigh
+500,0,3,0,24.0,0,0,7.7958,S,1,Young Adult,Low
+501,0,3,0,17.0,0,0,8.6625,S,1,Teenage,Low
+502,0,3,1,21.0,0,0,7.75,Q,1,Young Adult,Low
+503,0,3,1,28.0,0,0,7.6292,Q,1,Young Adult,Low
+504,0,3,1,37.0,0,0,9.5875,S,1,Middle-Aged,Low
+505,1,1,1,16.0,0,0,86.5,S,1,Teenage,High
+506,0,1,0,18.0,1,0,108.9,C,2,Teenage,VeryHigh
+507,1,2,1,33.0,0,2,26.0,S,3,Middle-Aged,Medium
+508,1,1,0,28.0,0,0,26.55,S,1,Young Adult,Medium
+509,0,3,0,28.0,0,0,22.525,S,1,Young Adult,Medium
+510,1,3,0,26.0,0,0,56.4958,S,1,Young Adult,High
+511,1,3,0,29.0,0,0,7.75,Q,1,Young Adult,Low
+512,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+513,1,1,0,36.0,0,0,26.2875,S,1,Middle-Aged,Medium
+514,1,1,1,54.0,1,0,59.4,C,2,Senior,High
+515,0,3,0,24.0,0,0,7.4958,S,1,Young Adult,Low
+516,0,1,0,47.0,0,0,34.0208,S,1,Middle-Aged,High
+517,1,2,1,34.0,0,0,10.5,S,1,Middle-Aged,Medium
+518,0,3,0,28.0,0,0,24.15,Q,1,Young Adult,Medium
+519,1,2,1,36.0,1,0,26.0,S,2,Middle-Aged,Medium
+520,0,3,0,32.0,0,0,7.8958,S,1,Young Adult,Low
+521,1,1,1,30.0,0,0,93.5,S,1,Young Adult,High
+522,0,3,0,22.0,0,0,7.8958,S,1,Young Adult,Low
+523,0,3,0,28.0,0,0,7.225,C,1,Young Adult,Low
+524,1,1,1,44.0,0,1,57.9792,C,2,Middle-Aged,High
+525,0,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+526,0,3,0,40.5,0,0,7.75,Q,1,Middle-Aged,Low
+527,1,2,1,50.0,0,0,10.5,S,1,Middle-Aged,Medium
+528,0,1,0,28.0,0,0,221.7792,S,1,Young Adult,VeryHigh
+529,0,3,0,39.0,0,0,7.925,S,1,Middle-Aged,Low
+530,0,2,0,23.0,2,1,11.5,S,4,Young Adult,Medium
+531,1,2,1,2.0,1,1,26.0,S,3,Child,Medium
+532,0,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+533,0,3,0,17.0,1,1,7.2292,C,3,Teenage,Low
+534,1,3,1,28.0,0,2,22.3583,C,3,Young Adult,Medium
+535,0,3,1,30.0,0,0,8.6625,S,1,Young Adult,Low
+536,1,2,1,7.0,0,2,26.25,S,3,Child,Medium
+537,0,1,0,45.0,0,0,26.55,S,1,Middle-Aged,Medium
+538,1,1,1,30.0,0,0,106.425,C,1,Young Adult,VeryHigh
+539,0,3,0,28.0,0,0,14.5,S,1,Young Adult,Medium
+540,1,1,1,22.0,0,2,49.5,C,3,Young Adult,High
+541,1,1,1,36.0,0,2,71.0,S,3,Middle-Aged,High
+542,0,3,1,9.0,4,2,31.275,S,7,Child,High
+543,0,3,1,11.0,4,2,31.275,S,7,Child,High
+544,1,2,0,32.0,1,0,26.0,S,2,Young Adult,Medium
+545,0,1,0,50.0,1,0,106.425,C,2,Middle-Aged,VeryHigh
+546,0,1,0,64.0,0,0,26.0,S,1,Senior,Medium
+547,1,2,1,19.0,1,0,26.0,S,2,Young Adult,Medium
+548,1,2,0,28.0,0,0,13.8625,C,1,Young Adult,Medium
+549,0,3,0,33.0,1,1,20.525,S,3,Middle-Aged,Medium
+550,1,2,0,8.0,1,1,36.75,S,3,Child,High
+551,1,1,0,17.0,0,2,110.8833,C,3,Teenage,VeryHigh
+552,0,2,0,27.0,0,0,26.0,S,1,Young Adult,Medium
+553,0,3,0,28.0,0,0,7.8292,Q,1,Young Adult,Low
+554,1,3,0,22.0,0,0,7.225,C,1,Young Adult,Low
+555,1,3,1,22.0,0,0,7.775,S,1,Young Adult,Low
+556,0,1,0,62.0,0,0,26.55,S,1,Senior,Medium
+557,1,1,1,48.0,1,0,39.6,C,2,Middle-Aged,High
+558,0,1,0,28.0,0,0,227.525,C,1,Young Adult,VeryHigh
+559,1,1,1,39.0,1,1,79.65,S,3,Middle-Aged,High
+560,1,3,1,36.0,1,0,17.4,S,2,Middle-Aged,Medium
+561,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+562,0,3,0,40.0,0,0,7.8958,S,1,Middle-Aged,Low
+563,0,2,0,28.0,0,0,13.5,S,1,Young Adult,Medium
+564,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+565,0,3,1,28.0,0,0,8.05,S,1,Young Adult,Low
+566,0,3,0,24.0,2,0,24.15,S,3,Young Adult,Medium
+567,0,3,0,19.0,0,0,7.8958,S,1,Young Adult,Low
+568,0,3,1,29.0,0,4,21.075,S,5,Young Adult,Medium
+569,0,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+570,1,3,0,32.0,0,0,7.8542,S,1,Young Adult,Low
+571,1,2,0,62.0,0,0,10.5,S,1,Senior,Medium
+572,1,1,1,53.0,2,0,51.4792,S,3,Senior,High
+573,1,1,0,36.0,0,0,26.3875,S,1,Middle-Aged,Medium
+574,1,3,1,28.0,0,0,7.75,Q,1,Young Adult,Low
+575,0,3,0,16.0,0,0,8.05,S,1,Teenage,Low
+576,0,3,0,19.0,0,0,14.5,S,1,Young Adult,Medium
+577,1,2,1,34.0,0,0,13.0,S,1,Middle-Aged,Medium
+578,1,1,1,39.0,1,0,55.9,S,2,Middle-Aged,High
+579,0,3,1,28.0,1,0,14.4583,C,2,Young Adult,Medium
+580,1,3,0,32.0,0,0,7.925,S,1,Young Adult,Low
+581,1,2,1,25.0,1,1,30.0,S,3,Young Adult,Medium
+582,1,1,1,39.0,1,1,110.8833,C,3,Middle-Aged,VeryHigh
+583,0,2,0,54.0,0,0,26.0,S,1,Senior,Medium
+584,0,1,0,36.0,0,0,40.125,C,1,Middle-Aged,High
+585,0,3,0,28.0,0,0,8.7125,C,1,Young Adult,Low
+586,1,1,1,18.0,0,2,79.65,S,3,Teenage,High
+587,0,2,0,47.0,0,0,15.0,S,1,Middle-Aged,Medium
+588,1,1,0,60.0,1,1,79.2,C,3,Senior,High
+589,0,3,0,22.0,0,0,8.05,S,1,Young Adult,Low
+590,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+591,0,3,0,35.0,0,0,7.125,S,1,Middle-Aged,Low
+592,1,1,1,52.0,1,0,78.2667,C,2,Senior,High
+593,0,3,0,47.0,0,0,7.25,S,1,Middle-Aged,Low
+594,0,3,1,28.0,0,2,7.75,Q,3,Young Adult,Low
+595,0,2,0,37.0,1,0,26.0,S,2,Middle-Aged,Medium
+596,0,3,0,36.0,1,1,24.15,S,3,Middle-Aged,Medium
+597,1,2,1,28.0,0,0,33.0,S,1,Young Adult,High
+598,0,3,0,49.0,0,0,0.0,S,1,Middle-Aged,
+599,0,3,0,28.0,0,0,7.225,C,1,Young Adult,Low
+600,1,1,0,49.0,1,0,56.9292,C,2,Middle-Aged,High
+601,1,2,1,24.0,2,1,27.0,S,4,Young Adult,Medium
+602,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+603,0,1,0,28.0,0,0,42.4,S,1,Young Adult,High
+604,0,3,0,44.0,0,0,8.05,S,1,Middle-Aged,Low
+605,1,1,0,35.0,0,0,26.55,C,1,Middle-Aged,Medium
+606,0,3,0,36.0,1,0,15.55,S,2,Middle-Aged,Medium
+607,0,3,0,30.0,0,0,7.8958,S,1,Young Adult,Low
+608,1,1,0,27.0,0,0,30.5,S,1,Young Adult,High
+609,1,2,1,22.0,1,2,41.5792,C,4,Young Adult,High
+610,1,1,1,40.0,0,0,153.4625,S,1,Middle-Aged,VeryHigh
+611,0,3,1,39.0,1,5,31.275,S,7,Middle-Aged,High
+612,0,3,0,28.0,0,0,7.05,S,1,Young Adult,Low
+613,1,3,1,28.0,1,0,15.5,Q,2,Young Adult,Medium
+614,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+615,0,3,0,35.0,0,0,8.05,S,1,Middle-Aged,Low
+616,1,2,1,24.0,1,2,65.0,S,4,Young Adult,High
+617,0,3,0,34.0,1,1,14.4,S,3,Middle-Aged,Medium
+618,0,3,1,26.0,1,0,16.1,S,2,Young Adult,Medium
+619,1,2,1,4.0,2,1,39.0,S,4,Child,High
+620,0,2,0,26.0,0,0,10.5,S,1,Young Adult,Medium
+621,0,3,0,27.0,1,0,14.4542,C,2,Young Adult,Medium
+622,1,1,0,42.0,1,0,52.5542,S,2,Middle-Aged,High
+623,1,3,0,20.0,1,1,15.7417,C,3,Young Adult,Medium
+624,0,3,0,21.0,0,0,7.8542,S,1,Young Adult,Low
+625,0,3,0,21.0,0,0,16.1,S,1,Young Adult,Medium
+626,0,1,0,61.0,0,0,32.3208,S,1,Senior,High
+627,0,2,0,57.0,0,0,12.35,Q,1,Senior,Medium
+628,1,1,1,21.0,0,0,77.9583,S,1,Young Adult,High
+629,0,3,0,26.0,0,0,7.8958,S,1,Young Adult,Low
+630,0,3,0,28.0,0,0,7.7333,Q,1,Young Adult,Low
+631,1,1,0,80.0,0,0,30.0,S,1,Senior,Medium
+632,0,3,0,51.0,0,0,7.0542,S,1,Senior,Low
+633,1,1,0,32.0,0,0,30.5,C,1,Young Adult,High
+634,0,1,0,28.0,0,0,0.0,S,1,Young Adult,
+635,0,3,1,9.0,3,2,27.9,S,6,Child,Medium
+636,1,2,1,28.0,0,0,13.0,S,1,Young Adult,Medium
+637,0,3,0,32.0,0,0,7.925,S,1,Young Adult,Low
+638,0,2,0,31.0,1,1,26.25,S,3,Young Adult,Medium
+639,0,3,1,41.0,0,5,39.6875,S,6,Middle-Aged,High
+640,0,3,0,28.0,1,0,16.1,S,2,Young Adult,Medium
+641,0,3,0,20.0,0,0,7.8542,S,1,Young Adult,Low
+642,1,1,1,24.0,0,0,69.3,C,1,Young Adult,High
+643,0,3,1,2.0,3,2,27.9,S,6,Child,Medium
+644,1,3,0,28.0,0,0,56.4958,S,1,Young Adult,High
+645,1,3,1,0.75,2,1,19.2583,C,4,Child,Medium
+646,1,1,0,48.0,1,0,76.7292,C,2,Middle-Aged,High
+647,0,3,0,19.0,0,0,7.8958,S,1,Young Adult,Low
+648,1,1,0,56.0,0,0,35.5,C,1,Senior,High
+649,0,3,0,28.0,0,0,7.55,S,1,Young Adult,Low
+650,1,3,1,23.0,0,0,7.55,S,1,Young Adult,Low
+651,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+652,1,2,1,18.0,0,1,23.0,S,2,Teenage,Medium
+653,0,3,0,21.0,0,0,8.4333,S,1,Young Adult,Low
+654,1,3,1,28.0,0,0,7.8292,Q,1,Young Adult,Low
+655,0,3,1,18.0,0,0,6.75,Q,1,Teenage,Low
+656,0,2,0,24.0,2,0,73.5,S,3,Young Adult,High
+657,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+658,0,3,1,32.0,1,1,15.5,Q,3,Young Adult,Medium
+659,0,2,0,23.0,0,0,13.0,S,1,Young Adult,Medium
+660,0,1,0,58.0,0,2,113.275,C,3,Senior,VeryHigh
+661,1,1,0,50.0,2,0,133.65,S,3,Middle-Aged,VeryHigh
+662,0,3,0,40.0,0,0,7.225,C,1,Middle-Aged,Low
+663,0,1,0,47.0,0,0,25.5875,S,1,Middle-Aged,Medium
+664,0,3,0,36.0,0,0,7.4958,S,1,Middle-Aged,Low
+665,1,3,0,20.0,1,0,7.925,S,2,Young Adult,Low
+666,0,2,0,32.0,2,0,73.5,S,3,Young Adult,High
+667,0,2,0,25.0,0,0,13.0,S,1,Young Adult,Medium
+668,0,3,0,28.0,0,0,7.775,S,1,Young Adult,Low
+669,0,3,0,43.0,0,0,8.05,S,1,Middle-Aged,Low
+670,1,1,1,28.0,1,0,52.0,S,2,Young Adult,High
+671,1,2,1,40.0,1,1,39.0,S,3,Middle-Aged,High
+672,0,1,0,31.0,1,0,52.0,S,2,Young Adult,High
+673,0,2,0,70.0,0,0,10.5,S,1,Senior,Medium
+674,1,2,0,31.0,0,0,13.0,S,1,Young Adult,Medium
+675,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+676,0,3,0,18.0,0,0,7.775,S,1,Teenage,Low
+677,0,3,0,24.5,0,0,8.05,S,1,Young Adult,Low
+678,1,3,1,18.0,0,0,9.8417,S,1,Teenage,Low
+679,0,3,1,43.0,1,6,46.9,S,8,Middle-Aged,High
+680,1,1,0,36.0,0,1,512.3292,C,2,Middle-Aged,VeryHigh
+681,0,3,1,28.0,0,0,8.1375,Q,1,Young Adult,Low
+682,1,1,0,27.0,0,0,76.7292,C,1,Young Adult,High
+683,0,3,0,20.0,0,0,9.225,S,1,Young Adult,Low
+684,0,3,0,14.0,5,2,46.9,S,8,Teenage,High
+685,0,2,0,60.0,1,1,39.0,S,3,Senior,High
+686,0,2,0,25.0,1,2,41.5792,C,4,Young Adult,High
+687,0,3,0,14.0,4,1,39.6875,S,6,Teenage,High
+688,0,3,0,19.0,0,0,10.1708,S,1,Young Adult,Medium
+689,0,3,0,18.0,0,0,7.7958,S,1,Teenage,Low
+690,1,1,1,15.0,0,1,211.3375,S,2,Teenage,VeryHigh
+691,1,1,0,31.0,1,0,57.0,S,2,Young Adult,High
+692,1,3,1,4.0,0,1,13.4167,C,2,Child,Medium
+693,1,3,0,28.0,0,0,56.4958,S,1,Young Adult,High
+694,0,3,0,25.0,0,0,7.225,C,1,Young Adult,Low
+695,0,1,0,60.0,0,0,26.55,S,1,Senior,Medium
+696,0,2,0,52.0,0,0,13.5,S,1,Senior,Medium
+697,0,3,0,44.0,0,0,8.05,S,1,Middle-Aged,Low
+698,1,3,1,28.0,0,0,7.7333,Q,1,Young Adult,Low
+699,0,1,0,49.0,1,1,110.8833,C,3,Middle-Aged,VeryHigh
+700,0,3,0,42.0,0,0,7.65,S,1,Middle-Aged,Low
+701,1,1,1,18.0,1,0,227.525,C,2,Teenage,VeryHigh
+702,1,1,0,35.0,0,0,26.2875,S,1,Middle-Aged,Medium
+703,0,3,1,18.0,0,1,14.4542,C,2,Teenage,Medium
+704,0,3,0,25.0,0,0,7.7417,Q,1,Young Adult,Low
+705,0,3,0,26.0,1,0,7.8542,S,2,Young Adult,Low
+706,0,2,0,39.0,0,0,26.0,S,1,Middle-Aged,Medium
+707,1,2,1,45.0,0,0,13.5,S,1,Middle-Aged,Medium
+708,1,1,0,42.0,0,0,26.2875,S,1,Middle-Aged,Medium
+709,1,1,1,22.0,0,0,151.55,S,1,Young Adult,VeryHigh
+710,1,3,0,28.0,1,1,15.2458,C,3,Young Adult,Medium
+711,1,1,1,24.0,0,0,49.5042,C,1,Young Adult,High
+712,0,1,0,28.0,0,0,26.55,S,1,Young Adult,Medium
+713,1,1,0,48.0,1,0,52.0,S,2,Middle-Aged,High
+714,0,3,0,29.0,0,0,9.4833,S,1,Young Adult,Low
+715,0,2,0,52.0,0,0,13.0,S,1,Senior,Medium
+716,0,3,0,19.0,0,0,7.65,S,1,Young Adult,Low
+717,1,1,1,38.0,0,0,227.525,C,1,Middle-Aged,VeryHigh
+718,1,2,1,27.0,0,0,10.5,S,1,Young Adult,Medium
+719,0,3,0,28.0,0,0,15.5,Q,1,Young Adult,Medium
+720,0,3,0,33.0,0,0,7.775,S,1,Middle-Aged,Low
+721,1,2,1,6.0,0,1,33.0,S,2,Child,High
+722,0,3,0,17.0,1,0,7.0542,S,2,Teenage,Low
+723,0,2,0,34.0,0,0,13.0,S,1,Middle-Aged,Medium
+724,0,2,0,50.0,0,0,13.0,S,1,Middle-Aged,Medium
+725,1,1,0,27.0,1,0,53.1,S,2,Young Adult,High
+726,0,3,0,20.0,0,0,8.6625,S,1,Young Adult,Low
+727,1,2,1,30.0,3,0,21.0,S,4,Young Adult,Medium
+728,1,3,1,28.0,0,0,7.7375,Q,1,Young Adult,Low
+729,0,2,0,25.0,1,0,26.0,S,2,Young Adult,Medium
+730,0,3,1,25.0,1,0,7.925,S,2,Young Adult,Low
+731,1,1,1,29.0,0,0,211.3375,S,1,Young Adult,VeryHigh
+732,0,3,0,11.0,0,0,18.7875,C,1,Child,Medium
+733,0,2,0,28.0,0,0,0.0,S,1,Young Adult,
+734,0,2,0,23.0,0,0,13.0,S,1,Young Adult,Medium
+735,0,2,0,23.0,0,0,13.0,S,1,Young Adult,Medium
+736,0,3,0,28.5,0,0,16.1,S,1,Young Adult,Medium
+737,0,3,1,48.0,1,3,34.375,S,5,Middle-Aged,High
+738,1,1,0,35.0,0,0,512.3292,C,1,Middle-Aged,VeryHigh
+739,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+740,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+741,1,1,0,28.0,0,0,30.0,S,1,Young Adult,Medium
+742,0,1,0,36.0,1,0,78.85,S,2,Middle-Aged,High
+743,1,1,1,21.0,2,2,262.375,C,5,Young Adult,VeryHigh
+744,0,3,0,24.0,1,0,16.1,S,2,Young Adult,Medium
+745,1,3,0,31.0,0,0,7.925,S,1,Young Adult,Low
+746,0,1,0,70.0,1,1,71.0,S,3,Senior,High
+747,0,3,0,16.0,1,1,20.25,S,3,Teenage,Medium
+748,1,2,1,30.0,0,0,13.0,S,1,Young Adult,Medium
+749,0,1,0,19.0,1,0,53.1,S,2,Young Adult,High
+750,0,3,0,31.0,0,0,7.75,Q,1,Young Adult,Low
+751,1,2,1,4.0,1,1,23.0,S,3,Child,Medium
+752,1,3,0,6.0,0,1,12.475,S,2,Child,Medium
+753,0,3,0,33.0,0,0,9.5,S,1,Middle-Aged,Low
+754,0,3,0,23.0,0,0,7.8958,S,1,Young Adult,Low
+755,1,2,1,48.0,1,2,65.0,S,4,Middle-Aged,High
+756,1,2,0,0.67,1,1,14.5,S,3,Child,Medium
+757,0,3,0,28.0,0,0,7.7958,S,1,Young Adult,Low
+758,0,2,0,18.0,0,0,11.5,S,1,Teenage,Medium
+759,0,3,0,34.0,0,0,8.05,S,1,Middle-Aged,Low
+760,1,1,1,33.0,0,0,86.5,S,1,Middle-Aged,High
+761,0,3,0,28.0,0,0,14.5,S,1,Young Adult,Medium
+762,0,3,0,41.0,0,0,7.125,S,1,Middle-Aged,Low
+763,1,3,0,20.0,0,0,7.2292,C,1,Young Adult,Low
+764,1,1,1,36.0,1,2,120.0,S,4,Middle-Aged,VeryHigh
+765,0,3,0,16.0,0,0,7.775,S,1,Teenage,Low
+766,1,1,1,51.0,1,0,77.9583,S,2,Senior,High
+767,0,1,0,28.0,0,0,39.6,C,1,Young Adult,High
+768,0,3,1,30.5,0,0,7.75,Q,1,Young Adult,Low
+769,0,3,0,28.0,1,0,24.15,Q,2,Young Adult,Medium
+770,0,3,0,32.0,0,0,8.3625,S,1,Young Adult,Low
+771,0,3,0,24.0,0,0,9.5,S,1,Young Adult,Low
+772,0,3,0,48.0,0,0,7.8542,S,1,Middle-Aged,Low
+773,0,2,1,57.0,0,0,10.5,S,1,Senior,Medium
+774,0,3,0,28.0,0,0,7.225,C,1,Young Adult,Low
+775,1,2,1,54.0,1,3,23.0,S,5,Senior,Medium
+776,0,3,0,18.0,0,0,7.75,S,1,Teenage,Low
+777,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+778,1,3,1,5.0,0,0,12.475,S,1,Child,Medium
+779,0,3,0,28.0,0,0,7.7375,Q,1,Young Adult,Low
+780,1,1,1,43.0,0,1,211.3375,S,2,Middle-Aged,VeryHigh
+781,1,3,1,13.0,0,0,7.2292,C,1,Teenage,Low
+782,1,1,1,17.0,1,0,57.0,S,2,Teenage,High
+783,0,1,0,29.0,0,0,30.0,S,1,Young Adult,Medium
+784,0,3,0,28.0,1,2,23.45,S,4,Young Adult,Medium
+785,0,3,0,25.0,0,0,7.05,S,1,Young Adult,Low
+786,0,3,0,25.0,0,0,7.25,S,1,Young Adult,Low
+787,1,3,1,18.0,0,0,7.4958,S,1,Teenage,Low
+788,0,3,0,8.0,4,1,29.125,Q,6,Child,Medium
+789,1,3,0,1.0,1,2,20.575,S,4,Child,Medium
+790,0,1,0,46.0,0,0,79.2,C,1,Middle-Aged,High
+791,0,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+792,0,2,0,16.0,0,0,26.0,S,1,Teenage,Medium
+793,0,3,1,28.0,8,2,69.55,S,11,Young Adult,High
+794,0,1,0,28.0,0,0,30.6958,C,1,Young Adult,High
+795,0,3,0,25.0,0,0,7.8958,S,1,Young Adult,Low
+796,0,2,0,39.0,0,0,13.0,S,1,Middle-Aged,Medium
+797,1,1,1,49.0,0,0,25.9292,S,1,Middle-Aged,Medium
+798,1,3,1,31.0,0,0,8.6833,S,1,Young Adult,Low
+799,0,3,0,30.0,0,0,7.2292,C,1,Young Adult,Low
+800,0,3,1,30.0,1,1,24.15,S,3,Young Adult,Medium
+801,0,2,0,34.0,0,0,13.0,S,1,Middle-Aged,Medium
+802,1,2,1,31.0,1,1,26.25,S,3,Young Adult,Medium
+803,1,1,0,11.0,1,2,120.0,S,4,Child,VeryHigh
+804,1,3,0,0.42,0,1,8.5167,C,2,Child,Low
+805,1,3,0,27.0,0,0,6.975,S,1,Young Adult,Low
+806,0,3,0,31.0,0,0,7.775,S,1,Young Adult,Low
+807,0,1,0,39.0,0,0,0.0,S,1,Middle-Aged,
+808,0,3,1,18.0,0,0,7.775,S,1,Teenage,Low
+809,0,2,0,39.0,0,0,13.0,S,1,Middle-Aged,Medium
+810,1,1,1,33.0,1,0,53.1,S,2,Middle-Aged,High
+811,0,3,0,26.0,0,0,7.8875,S,1,Young Adult,Low
+812,0,3,0,39.0,0,0,24.15,S,1,Middle-Aged,Medium
+813,0,2,0,35.0,0,0,10.5,S,1,Middle-Aged,Medium
+814,0,3,1,6.0,4,2,31.275,S,7,Child,High
+815,0,3,0,30.5,0,0,8.05,S,1,Young Adult,Low
+816,0,1,0,28.0,0,0,0.0,S,1,Young Adult,
+817,0,3,1,23.0,0,0,7.925,S,1,Young Adult,Low
+818,0,2,0,31.0,1,1,37.0042,C,3,Young Adult,High
+819,0,3,0,43.0,0,0,6.45,S,1,Middle-Aged,Low
+820,0,3,0,10.0,3,2,27.9,S,6,Child,Medium
+821,1,1,1,52.0,1,1,93.5,S,3,Senior,High
+822,1,3,0,27.0,0,0,8.6625,S,1,Young Adult,Low
+823,0,1,0,38.0,0,0,0.0,S,1,Middle-Aged,
+824,1,3,1,27.0,0,1,12.475,S,2,Young Adult,Medium
+825,0,3,0,2.0,4,1,39.6875,S,6,Child,High
+826,0,3,0,28.0,0,0,6.95,Q,1,Young Adult,Low
+827,0,3,0,28.0,0,0,56.4958,S,1,Young Adult,High
+828,1,2,0,1.0,0,2,37.0042,C,3,Child,High
+829,1,3,0,28.0,0,0,7.75,Q,1,Young Adult,Low
+830,1,1,1,62.0,0,0,80.0,S,1,Senior,High
+831,1,3,1,15.0,1,0,14.4542,C,2,Teenage,Medium
+832,1,2,0,0.83,1,1,18.75,S,3,Child,Medium
+833,0,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+834,0,3,0,23.0,0,0,7.8542,S,1,Young Adult,Low
+835,0,3,0,18.0,0,0,8.3,S,1,Teenage,Low
+836,1,1,1,39.0,1,1,83.1583,C,3,Middle-Aged,High
+837,0,3,0,21.0,0,0,8.6625,S,1,Young Adult,Low
+838,0,3,0,28.0,0,0,8.05,S,1,Young Adult,Low
+839,1,3,0,32.0,0,0,56.4958,S,1,Young Adult,High
+840,1,1,0,28.0,0,0,29.7,C,1,Young Adult,Medium
+841,0,3,0,20.0,0,0,7.925,S,1,Young Adult,Low
+842,0,2,0,16.0,0,0,10.5,S,1,Teenage,Medium
+843,1,1,1,30.0,0,0,31.0,C,1,Young Adult,High
+844,0,3,0,34.5,0,0,6.4375,C,1,Middle-Aged,Low
+845,0,3,0,17.0,0,0,8.6625,S,1,Teenage,Low
+846,0,3,0,42.0,0,0,7.55,S,1,Middle-Aged,Low
+847,0,3,0,28.0,8,2,69.55,S,11,Young Adult,High
+848,0,3,0,35.0,0,0,7.8958,C,1,Middle-Aged,Low
+849,0,2,0,28.0,0,1,33.0,S,2,Young Adult,High
+850,1,1,1,28.0,1,0,89.1042,C,2,Young Adult,High
+851,0,3,0,4.0,4,2,31.275,S,7,Child,High
+852,0,3,0,74.0,0,0,7.775,S,1,Senior,Low
+853,0,3,1,9.0,1,1,15.2458,C,3,Child,Medium
+854,1,1,1,16.0,0,1,39.4,S,2,Teenage,High
+855,0,2,1,44.0,1,0,26.0,S,2,Middle-Aged,Medium
+856,1,3,1,18.0,0,1,9.35,S,2,Teenage,Low
+857,1,1,1,45.0,1,1,164.8667,S,3,Middle-Aged,VeryHigh
+858,1,1,0,51.0,0,0,26.55,S,1,Senior,Medium
+859,1,3,1,24.0,0,3,19.2583,C,4,Young Adult,Medium
+860,0,3,0,28.0,0,0,7.2292,C,1,Young Adult,Low
+861,0,3,0,41.0,2,0,14.1083,S,3,Middle-Aged,Medium
+862,0,2,0,21.0,1,0,11.5,S,2,Young Adult,Medium
+863,1,1,1,48.0,0,0,25.9292,S,1,Middle-Aged,Medium
+864,0,3,1,28.0,8,2,69.55,S,11,Young Adult,High
+865,0,2,0,24.0,0,0,13.0,S,1,Young Adult,Medium
+866,1,2,1,42.0,0,0,13.0,S,1,Middle-Aged,Medium
+867,1,2,1,27.0,1,0,13.8583,C,2,Young Adult,Medium
+868,0,1,0,31.0,0,0,50.4958,S,1,Young Adult,High
+869,0,3,0,28.0,0,0,9.5,S,1,Young Adult,Low
+870,1,3,0,4.0,1,1,11.1333,S,3,Child,Medium
+871,0,3,0,26.0,0,0,7.8958,S,1,Young Adult,Low
+872,1,1,1,47.0,1,1,52.5542,S,3,Middle-Aged,High
+873,0,1,0,33.0,0,0,5.0,S,1,Middle-Aged,Low
+874,0,3,0,47.0,0,0,9.0,S,1,Middle-Aged,Low
+875,1,2,1,28.0,1,0,24.0,C,2,Young Adult,Medium
+876,1,3,1,15.0,0,0,7.225,C,1,Teenage,Low
+877,0,3,0,20.0,0,0,9.8458,S,1,Young Adult,Low
+878,0,3,0,19.0,0,0,7.8958,S,1,Young Adult,Low
+879,0,3,0,28.0,0,0,7.8958,S,1,Young Adult,Low
+880,1,1,1,56.0,0,1,83.1583,C,2,Senior,High
+881,1,2,1,25.0,0,1,26.0,S,2,Young Adult,Medium
+882,0,3,0,33.0,0,0,7.8958,S,1,Middle-Aged,Low
+883,0,3,1,22.0,0,0,10.5167,S,1,Young Adult,Medium
+884,0,2,0,28.0,0,0,10.5,S,1,Young Adult,Medium
+885,0,3,0,25.0,0,0,7.05,S,1,Young Adult,Low
+886,0,3,1,39.0,0,5,29.125,Q,6,Middle-Aged,Medium
+887,0,2,0,27.0,0,0,13.0,S,1,Young Adult,Medium
+888,1,1,1,19.0,0,0,30.0,S,1,Young Adult,Medium
+889,0,3,1,28.0,1,2,23.45,S,4,Young Adult,Medium
+890,1,1,0,26.0,0,0,30.0,C,1,Young Adult,Medium
+891,0,3,0,32.0,0,0,7.75,Q,1,Young Adult,Low
